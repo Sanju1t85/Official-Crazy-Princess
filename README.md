@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Lazy Princess Logo">
+  <img src="https://graph.org/file/5b3884b1621420b9e21fe.jpg" alt="Lazy Princess Logo">
 </p>
 <h1 align="center">
   <b> Crazy Princess BOT </b>
