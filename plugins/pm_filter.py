@@ -1016,7 +1016,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         if str(grp_id) != str(grpid):
             await query.message.edit("Your Active Connection Has Been Changed. Go To /settings.")
-            return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+            return await query.answer('𝒯𝒽𝒶𝓃𝓀 𝒴💞𝓊 𝒮𝒽𝒾𝓋𝒶𝓂')
 
         if status == "True":
             await save_group_settings(grpid, set_type, False)
@@ -1343,7 +1343,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("🐯  🎀  𝐻𝑒𝓎 𝓈❤𝓃𝒶❢ 𝒯𝒽𝑒 𝓇𝑒𝓆𝓊𝑒𝓈𝓉𝑒𝒹 𝒸🍪𝓃𝓉𝑒𝓃𝓉 𝒾𝓈 𝒸𝓊𝓇𝓇𝑒𝓃𝓉𝓁𝓎 𝓊𝓃𝒶𝓋𝒶𝒾𝓁𝒶𝒷𝓁𝑒 𝒾𝓃 🏵𝓊𝓇 𝒹𝒶𝓉𝒶𝒷𝒶𝓈𝑒, 𝒽𝒶𝓋𝑒 𝓈🍪𝓂𝑒 𝓅𝒶𝓉𝒾𝑒𝓃𝒸𝑒 🙂 - 🍬𝓊𝓇 𝑔𝓇𝑒𝒶𝓉 𝒶𝒹𝓂𝒾𝓃 𝓌𝒾𝓁𝓁 𝓊𝓅𝓁♡𝒶𝒹 𝒾𝓉 𝒶𝓈 𝓈💍🍑𝓃 𝒶𝓈 𝓅❁𝓈𝓈𝒾𝒷𝓁𝑒  🎀  🐯 \n             **or**\n𝒟𝒾𝓈𝒸𝓊𝓈𝓈 𝒾𝓈𝓈𝓊𝑒 𝓌𝒾𝓉𝒽 𝒶𝒹𝓂𝒾𝓃 𝒽𝑒𝓇𝑒 👉  <a href='https://t.me/heartlesssn'>Discuss Here</a> ♥️ ")
+        k = await msg.reply("Hᴀʏ sᴏɴᴀ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴏᴜʀ ᴅᴀᴛᴀʙᴀsᴇ , ʜᴀᴠᴇ sᴏᴍᴇ ᴘᴀғɪᴇɴᴄᴇ 🙂 - ᴏᴜʀ ɢʀᴇᴀᴛ ᴀᴅᴍɪɴ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟʀ 🙂")
         await asyncio.sleep(10)
         await k.delete()
         return
@@ -1355,7 +1355,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("🐯  🎀  𝐻𝑒𝓎 𝓈❤𝓃𝒶❢ 𝒯𝒽𝑒 𝓇𝑒𝓆𝓊𝑒𝓈𝓉𝑒𝒹 𝒸🍪𝓃𝓉𝑒𝓃𝓉 𝒾𝓈 𝒸𝓊𝓇𝓇𝑒𝓃𝓉𝓁𝓎 𝓊𝓃𝒶𝓋𝒶𝒾𝓁𝒶𝒷𝓁𝑒 𝒾𝓃 🏵𝓊𝓇 𝒹𝒶𝓉𝒶𝒷𝒶𝓈𝑒, 𝒽𝒶𝓋𝑒 𝓈🍪𝓂𝑒 𝓅𝒶𝓉𝒾𝑒𝓃𝒸𝑒 🙂 - 🍬𝓊𝓇 𝑔𝓇𝑒𝒶𝓉 𝒶𝒹𝓂𝒾𝓃 𝓌𝒾𝓁𝓁 𝓊𝓅𝓁♡𝒶𝒹 𝒾𝓉 𝒶𝓈 𝓈💍🍑𝓃 𝒶𝓈 𝓅❁𝓈𝓈𝒾𝒷𝓁𝑒  🎀  🐯 \n              **or**\n𝒟𝒾𝓈𝒸𝓊𝓈𝓈 𝒾𝓈𝓈𝓊𝑒 𝓌𝒾𝓉𝒽 𝒶𝒹𝓂𝒾𝓃 𝒽𝑒𝓇𝑒 👉 <a href='https://t.me/heartlesssn'>Discuss Here</a> ♥️ ",
+    await msg.reply("Hᴀʏ sᴏɴᴀ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴏᴜʀ ᴅᴀᴛᴀʙᴀsᴇ , ʜᴀᴠᴇ sᴏᴍᴇ ᴘᴀғɪᴇɴᴄᴇ 🙂 - ᴏᴜʀ ɢʀᴇᴀᴛ ᴀᴅᴍɪɴ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟʀ 🙂",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
