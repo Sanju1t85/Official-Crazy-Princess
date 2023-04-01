@@ -75,7 +75,7 @@ MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "+qAxoGBvSc34yNmU1") 
 
 # Url Shortner
 URL_MODE = is_enabled((environ.get("URL_MODE","True")), False)
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'omegalinks.in') #Always use website url from api section 
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'TGLink.in') #Always use website url from api section 
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'b923e4f6561e6157295c9654d135b5b1e3384b18')
 LZURL_PRIME_USERS = [int(lazyurlers) if id_pattern.search(lazyurlers) else lazyurlers for lazyurlers in environ.get('LZURL_PRIME_USERS', '5965340120').split()]
 
