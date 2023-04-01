@@ -50,7 +50,7 @@ async def rename(bot,update):
 	user_id = update.message.chat.id
 	date = update.message.date
 	await update.message.delete()
-	await update.message.reply_text("♗💣  𝓹𝔩єⒶ𝓢ⓔ ⓔＮｔᵉ𝐫 𝐍є𝐖 ƒĮㄥ€ ⓝ𝔞ｍ𝒆  🐊✎",	
+	await update.message.reply_text("🇵​​🇱​​🇪​​🇦​​🇸​​🇪​ ​🇪​​🇳​​🇹​​🇪​​🇷​ ​🇳​​🇪​​🇼​ ​🇫​​🇮​​🇱​​🇪​ ​🇳​​🇦​​🇲​​🇪​✎",	
 	reply_to_message_id=update.message.reply_to_message.id,  
 	reply_markup=ForceReply(True))  
 # Born to make history @LazyDeveloper !
