@@ -912,7 +912,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "lazyhome":
         text = f"""\n✶  🎀  𝒞𝓇𝒶𝓏𝓎 𝑀💙𝒹𝑒  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n"""
-        buttons = [[ InlineKeyboardButton("🐦  🎀  𝒮𝓉𝒶𝓇𝓉 𝑅𝑒𝓃𝒶𝓂𝒾𝓃𝑔  🎀  🐦", callback_data="rename") ],
+        buttons = [[ InlineKeyboardButton("Ｓｔａｒｔ Ｒｅｎａｍｉｎｇ", callback_data="rename") ],
                            [ InlineKeyboardButton("🅲🅻🅾🆂🅴", callback_data="cancel") ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -944,7 +944,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     #     )
     # elif query.data == "reqauthlazyhome":
     #     text = f"""\n✶  🎀  𝒞𝓇𝒶𝓏𝓎 𝑀💙𝒹𝑒  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n"""
-    #     buttons = [[ InlineKeyboardButton("🐦  🎀  𝒮𝓉𝒶𝓇𝓉 𝑅𝑒𝓃𝒶𝓂𝒾𝓃𝑔  🎀  🐦", callback_data="requireauth") ],
+    #     buttons = [[ InlineKeyboardButton("Ｓｔａｒｔ Ｒｅｎａｍｉｎｇ", callback_data="requireauth") ],
     #                        [ InlineKeyboardButton("🅲🅻🅾🆂🅴", callback_data="cancel") ]]
     #     reply_markup = InlineKeyboardMarkup(buttons)
     #     await query.message.edit_text(
@@ -1100,7 +1100,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('♥️ Thank You LazyDeveloper ♥️')
+    await query.answer('𝒯𝒽𝒶𝓃𝓀 𝒴💞𝓊 𝒮𝒽𝒾𝓋𝒶𝓂')
 
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
