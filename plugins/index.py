@@ -91,8 +91,8 @@ async def send_for_index(bot, message):
             filename = file.file_name
             filesize = humanize.naturalsize(file.file_size) 
             buttons = [
-                [ InlineKeyboardButton("🐦  🎀  𝒮𝓉𝒶𝓇𝓉 𝑅𝑒𝓃𝒶𝓂𝒾𝓃𝑔  🎀  🐦", callback_data="rename") ],
-                [ InlineKeyboardButton('🍫🎉  şＴ𝔸Ř𝕥 ｉᶰ𝐃Ẹ𝓍Į𝐍𝔤  ♦💣',callback_data=f'index#accept#{chat_id}#{last_msg_id}#{message.from_user.id}')],
+                [ InlineKeyboardButton("🐦  🎀  𝗦𝘁𝗮𝗿𝘁 𝗥𝗲𝗻𝗮𝗺𝗶𝗻𝗴  🎀  🐦", callback_data="rename") ],
+                [ InlineKeyboardButton('🍫🎉  𝗦𝘁𝗮𝗿𝘁 𝗜𝗻𝗱𝗲𝘅𝗶𝗻𝗴  ♦💣',callback_data=f'index#accept#{chat_id}#{last_msg_id}#{message.from_user.id}')],
                 [ InlineKeyboardButton('🅲🅻🅾🆂🅴', callback_data='cancel'),]
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
@@ -140,7 +140,7 @@ async def send_for_index(bot, message):
         if message.from_user.id in LAZY_RENAMERS:
             k = await message.reply('🎉\n\n\n❤️ Thank You For the Contribution, Wait For My Moderators to verify the files.\n\n\n🎁')
             buttons = [
-                        [InlineKeyboardButton("🐦  🎀  𝒮𝓉𝒶𝓇𝓉 𝑅𝑒𝓃𝒶𝓂𝒾𝓃𝑔  🎀  🐦", callback_data="rename") ],
+                        [InlineKeyboardButton("🐦  🎀  𝗦𝘁𝗮𝗿𝘁 𝗥𝗲𝗻𝗮𝗺𝗶𝗻𝗴  🎀  🐦", callback_data="rename") ],
                         [InlineKeyboardButton('🅲🅻🅾🆂🅴', callback_data='cancel')]]
             reply_markup = InlineKeyboardMarkup(buttons)
             file = getattr(message, message.media.value)
@@ -155,14 +155,14 @@ async def send_for_index(bot, message):
         else :      
             await message.reply('🎉\n\n\n❤️ Thank You For the Contribution, Wait For My Moderators to verify the files.\n\n\n🎁')
             buttons = [
-                        [InlineKeyboardButton("🐦  🎀  𝒮𝓉𝒶𝓇𝓉 𝑅𝑒𝓃𝒶𝓂𝒾𝓃𝑔  🎀  🐦", callback_data="requireauth") ],
+                        [InlineKeyboardButton("🐦  🎀  𝗦𝘁𝗮𝗿𝘁 𝗥𝗲𝗻𝗮𝗺𝗶𝗻𝗴  🎀  🐦", callback_data="requireauth") ],
                         [InlineKeyboardButton('🅲🅻🅾🆂🅴', callback_data='cancel')]]
             reply_markup = InlineKeyboardMarkup(buttons)
             file = getattr(message, message.media.value)
             filename = file.file_name
             filesize = humanize.naturalsize(file.file_size) 
             k = await message.reply(
-                                f"\n✶  🎀  𝒞𝓇𝒶𝓏𝓎 𝑀💙𝒹𝑒  🎀  ✶\n\n🤩 Do you know LazyPrincess can do a lot of things at a time...\nWould you like to try some of it's amazing features... \n\n🪬Chat ID/ Username: <code>{chat_id}</code>\nℹ️Last Message ID: <code>{last_msg_id}</code> \n\n🎞**File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`",
+                                f"\n✶  🎀  𝗖𝗿𝗮𝘇𝘆 𝗠𝗼𝗱𝗲  🎀  ✶\n\n🤩 Do you know LazyPrincess can do a lot of things at a time...\nWould you like to try some of it's amazing features... \n\n🪬Chat ID/ Username: <code>{chat_id}</code>\nℹ️Last Message ID: <code>{last_msg_id}</code> \n\n🎞**File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`",
                                 reply_to_message_id=message.id,
                                 reply_markup=reply_markup)
             await asyncio.sleep(600)
