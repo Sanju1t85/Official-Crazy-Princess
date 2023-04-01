@@ -46,8 +46,8 @@ async def rename_start(client, message):
             file = getattr(message, message.media.value)
             filesize = humanize.naturalsize(file.file_size) 
             filename = file.file_name
-            text = f"""\n✶  🎀  𝒞𝓇𝒶𝓏𝓎 𝑀💙𝒹𝑒  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n\n**🎞File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`"""
-            buttons = [[ InlineKeyboardButton("🐦  🎀  𝒮𝓉𝒶𝓇𝓉 𝑅𝑒𝓃𝒶𝓂𝒾𝓃𝑔  🎀  🐦", callback_data="rename") ],
+            text = f"""\n✶  🎀  𝗖𝗿𝗮𝘇𝘆..𝗠𝗼𝗱𝗲  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n\n**🎞File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`"""
+            buttons = [[ InlineKeyboardButton("🐦  🎀  𝗦𝘁𝗮𝗿𝘁 𝗥𝗲𝗻𝗮𝗺𝗶𝗻𝗴  🎀  🐦", callback_data="rename") ],
                        [ InlineKeyboardButton("🅲🅻🅾🆂🅴", callback_data="cancel") ]]
             await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -56,15 +56,15 @@ async def rename_start(client, message):
             filesize = humanize.naturalsize(file.file_size) 
             filename = file.file_name
             try:
-                text = f"""\n✶  🎀  𝒞𝓇𝒶𝓏𝓎 𝑀💙𝒹𝑒  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n\n**🎞File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`"""
-                buttons = [[ InlineKeyboardButton("🐦  🎀  𝒮𝓉𝒶𝓇𝓉 𝑅𝑒𝓃𝒶𝓂𝒾𝓃𝑔  🎀  🐦", callback_data="rename") ],
+                text = f"""\n✶  🎀  𝗖𝗿𝗮𝘇𝘆..𝗠𝗼𝗱𝗲  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n\n**🎞File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`"""
+                buttons = [[ InlineKeyboardButton("🐦  🎀  𝗦𝘁𝗮𝗿𝘁 𝗥𝗲𝗻𝗮𝗺𝗶𝗻𝗴  🎀  🐦", callback_data="rename") ],
                            [ InlineKeyboardButton("🅲🅻🅾🆂🅴", callback_data="cancel") ]]
                 await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
                 await sleep(FLOOD)
             except FloodWait as e:
                 await sleep(e.value)
-                text = f"""\n✶  🎀  𝒞𝓇𝒶𝓏𝓎 𝑀💙𝒹𝑒  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n\n**🎞File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`"""
-                buttons = [[ InlineKeyboardButton("🐦  🎀  𝒮𝓉𝒶𝓇𝓉 𝑅𝑒𝓃𝒶𝓂𝒾𝓃𝑔  🎀  🐦", callback_data="rename") ],
+                text = f"""\n✶  🎀  𝗖𝗿𝗮𝘇𝘆..𝗠𝗼𝗱𝗲  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n\n**🎞File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`"""
+                buttons = [[ InlineKeyboardButton("🐦  🎀  𝗦𝘁𝗮𝗿𝘁 𝗥𝗲𝗻𝗮𝗺𝗶𝗻𝗴  🎀  🐦", callback_data="rename") ],
                            [ InlineKeyboardButton("🅲🅻🅾🆂🅴", callback_data="cancel") ]]
                 await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
             except:
@@ -73,8 +73,8 @@ async def rename_start(client, message):
             file = getattr(message, message.media.value)
             filesize = humanize.naturalsize(file.file_size) 
             filename = file.file_name
-            text = f"""\n✶  🎀  𝒞𝓇𝒶𝓏𝓎 𝑀💙𝒹𝑒  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n\n**🎞File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`"""
-            buttons = [[ InlineKeyboardButton("🐦  🎀  𝒮𝓉𝒶𝓇𝓉 𝑅𝑒𝓃𝒶𝓂𝒾𝓃𝑔  🎀  🐦", callback_data="requireauth") ],
+            text = f"""\n✶  🎀  𝗖𝗿𝗮𝘇𝘆..𝗠𝗼𝗱𝗲  🎀  ✶\n\n**Please tell, what should i do with this file.?**\n\n**🎞File Name** :- `{filename}`\n\n⚙️**File Size** :- `{filesize}`"""
+            buttons = [[ InlineKeyboardButton("🐦  🎀  𝗦𝘁𝗮𝗿𝘁 𝗥𝗲𝗻𝗮𝗺𝗶𝗻𝗴  🎀  🐦", callback_data="requireauth") ],
                         [ InlineKeyboardButton("🅲🅻🅾🆂🅴", callback_data="cancel") ]]
             await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     else:
