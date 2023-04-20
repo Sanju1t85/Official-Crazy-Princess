@@ -114,7 +114,8 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """#OfficialCrazyPrincrss
+#NewUser
 ID - <code>{}</code>
 Name - {}
 """
